@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- @Mayeul : le mieux est l'ennemi du bien !-->
+<head>
+	<style>
+		#ipn
+		{
+			position: absolute; top: 70px; left: 380px;
+		}
+		#gouy
+		{
+			position: absolute; top: 180px; left: 380px;
+		}
+		#astre
+		{
+			position: absolute; top: 140px; left: 550px;
+		}
+		#themis
+		{
+			position: absolute; top: 170px; left: 610px;
+		}
+	</style>
+</head>
+<body>
+	<img style="position: absolute; top: 0px; left: 0px; width = 100%;" src ='carte.gif' />
+	<select style ="position: absolute; top: 0px; left: 860px;" onChange="document.getElementsByName('fleche-rouge')[0].id=this.value">
+	<option value="">Choisissez !
+	</option>
+	<option value="ipn" selected>IPN Physique nucléaire</option>
+	<option value="gouy">GOUY</option>
+	<option value="astre">Astrée</option>
+	<option value="themis">Themis 9</option>
+	</select>
+	<img id ='coucou' name='fleche-rouge' width = 32px src ='fleche.gif'>
+
+	<br>
+</body>
+</html>

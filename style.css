@@ -1,0 +1,56 @@
+li a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border:1px solid #ccc;
+	font-size:2.3em;
+
+	width:30vw;
+	min-width:5em;
+	min-height:2em;
+	line-height: 2em;
+	display:block;
+	margin-bottom:3%;
+	margin-left: 0.3vw;
+	margin-right: 0.3vw;
+	padding: 0;
+	margin-top:1%;
+	outline: none;
+	text-align: center;
+	vertical-align: center;
+
+	-webkit-border-radius:1.2em;
+	-moz-border-radius:1.2em;
+	-o-border-radius:1.2em;
+	-ms-border-radius:1.2em;
+	border-radius:1.2em;
+}
+
+body {
+	text-align: center;
+	padding-left: 0;
+}
+
+li {
+	margin-top: 1vh;
+	display:inline-block;
+}
+
+ul{
+	padding-left: 0;
+}
+
+#galilogo { max-width:7em; }
+
+.eti3 {	color: #F90; }
+.eti4 {	color: #F60; }
+.eti5 {	color: #F00; }
+.cgp3 {	color: #09F; }
+.cgp4 {	color: #06C; }
+.cgp5 {	color: #30F; }
+.eti3p { color: #66ff33; }
+.eti4p { color: #33CC33; }
+.eti5p { color: #009933; }
+.cgp3p { color: #cc33ff; }
+.cgp4p { color: #cc00ff; }
+.cgp5p { color: #9933ff; }
+.amphi { color: #68460a; }
+.langues { color: #367e79; }
